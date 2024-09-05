@@ -1,0 +1,57 @@
+
+/* << ------------------ Reading View ------------------ >> */
+.markdown-preview-view h1, .markdown-preview-view h2, .markdown-preview-view h3 {
+	font-size: 1.5rem !important;
+	display: inline-block !important;
+	margin-bottom: 0.75rem !important;
+}
+
+/* << ------------ Source View / Live Preview ------------ >> */
+.cm-s-obsidian .cm-header.cm-header-1 {
+	font-size: 1.5rem !important;
+	display: inline-block !important;
+	margin-bottom: 0.25rem !important;
+}
+
+.cm-s-obsidian .cm-header.cm-header-2 {
+	font-size: 1.35rem !important;
+	display: inline-block !important;
+	margin-bottom: 0.25rem !important;
+}
+
+.cm-s-obsidian .cm-header.cm-header-3 {
+	font-size: 1.1rem !important;
+}
+
+.cm-s-obsidian .cm-header.cm-header-4 {
+	font-size: 0.9rem !important;
+  text-transform: uppercase;
+  letter-spacing: 0.035em;
+}
+
+.cm-formatting.cm-formatting-list {
+  padding-left: 0 !important;
+  padding-right: 12px !important;
+}
+
+.HyperMD-list-line { 
+	padding-top: 1rem !important;
+  text-indent: -17px !important;
+  padding-inline-start: 20px !important;
+}
+
+.HyperMD-list-line+.cm-line {
+  padding-top: 1rem !important;
+}
+
+.cm-blockid {
+	color: var(--tag-color) !important;
+}
+
+.list-bullet {
+  font-size: 150%;
+  position: absolute;
+  margin-top: -0.35rem;
+  margin-left: -5px;
+  vertical-align: middle;
+}
